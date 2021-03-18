@@ -1,0 +1,36 @@
+{
+  "name": "less-cli",
+  "version": "1.0.0",
+  "description": "less-cli for less-framework, less-admin",
+  "main": "index.js",
+  "bin": {
+    "zhuo": "bin/main.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maslow/less-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maslow/less-cli/issues"
+  },
+  "homepage": "https://github.com/Maslow/less-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.1.0",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
